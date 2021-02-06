@@ -26,7 +26,7 @@ When installing or publishing a docker image, {% data variables.product.prodname
 
 Before you can use the Docker registry on {% data variables.product.prodname_registry %}, the site administrator for {% data variables.product.product_location %} must enable Docker support and subdomain isolation for your instance. For more information, see "[Managing GitHub Packages for your enterprise](/enterprise/admin/packages)."
 
-{% endif %}
+{% endif 10
 
 ### Authenticating to {% data variables.product.prodname_registry %}
 
@@ -163,7 +163,7 @@ For more information, see "[Docker login](https://docs.docker.com/engine/referen
 
   **Note:** You must push your image using `IMAGE_NAME:VERSION` and not using `IMAGE_NAME:SHA`.
 
-  {% endnote %}
+  {% endnote 10
 
 #### Example publishing a Docker image
 
